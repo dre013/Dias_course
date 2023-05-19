@@ -36,7 +36,7 @@ name = ['Tom','Bob','Sam']
 # name.insert(2,'Josh')
 # print(name)
 
-# name.extend(['Mike','John'])
+# name.extend(['Bob','John'])
 # print(name)
 
 # index_start = name.index("John")
@@ -50,6 +50,6 @@ name = ['Tom','Bob','Sam']
 
 # name.clear()
 # print(name)
-if "Tom" in name:
-    name.remove("Alice")
-    print(name)
+# if "Tom" in name:
+#     name.remove("Alice")
+#     print(name)
