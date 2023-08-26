@@ -42,6 +42,7 @@ class Student(Person):
  
     # переопределение метода display_info
     def display_info(self):
+        Person.display_info(self)
         print("Студент", self.name, "учится в университете", self.university)
 
 class Boss(Person):                                                          # Добавление в композицию
