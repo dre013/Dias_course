@@ -1,0 +1,41 @@
+{
+    "squadName": "Super hero squad",
+    "homeTown": "Metro City",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+        {
+            "name": "Молекулярный человек",
+            "secretIdentity": "Dan Jukes",
+            "powers": [
+                "Radiation resistance",
+                "Turning tiny",
+                "Radiation blast"
+            ],
+            "likes": 283
+        },
+        {
+            "name": "Madame Uppercut",
+            "secretIdentity": "Jane Wilson",
+            "powers": [
+                "Million tonne punch",
+                "Damage resistance",
+                "Superhuman reflexes"
+            ],
+            "likes": 321
+        },
+        {
+            "name": "Eternal Flame",
+            "secretIdentity": "Unknown",
+            "powers": [
+                "Immortality",
+                "Heat Immunity",
+                "Inferno",
+                "Teleportation",
+                "Interdimensional travel"
+            ],
+            "likes": 149
+        }
+    ]
+}
