@@ -1,0 +1,47 @@
+-- "-" вычитание
+-- "+" Сумма
+-- "/" Деление
+-- "*" Умножение
+-- "^" Степень
+
+
+/*select product_id , product_name , unit_price + units_on_order
+from products;
+
+select product_id , product_name , unit_price - units_on_order
+from products;
+
+--select product_id , product_name , unit_price / units_on_order
+--from products;
+
+select product_id , product_name , unit_price * units_on_order
+from products;
+*/
+--Distinct
+--select distinct country  , city from employees
+--Count
+--Select count(country) from employees;
+--Select count (Distinct country )from employees
+--SELECT COUNT(*) FROM employees
+
+--Where
+--Select * from employees where  city = 'London'
+--And or
+--Select * from employees where city = 'London' or city = 'Seattle'
+--Select * from employees where city = 'Seattle' and first_name = 'Nancy'
+--between
+--select * from orders where freight between 20 and 40
+-- in not in 
+--select * from orders where ship_city  not in ('Seattle','London')
+--min max avg
+--select avg(freight) from orders
+--select max(freight) from orders
+--select min(freight) from orders
+--limit 
+--select * from orders  
+--limit 10
+--like
+--select * from orders where ship_city like 'L%n';
+--select * from orders where ship_city like '%n'
+--select * from orders where ship_city like 'L%'
+--select * from orders where ship_city like '%f%'
