@@ -1,0 +1,25 @@
+-- select company_name, order_id from orders r
+-- right join customers cus on r.customer_id = cus.customer_id
+-- where order_id is null
+
+-- select company_name, order_id
+-- from orders
+-- right join customers on orders.customer_id  = customers.customer_id
+-- where order_id is null
+
+-- select country from customers
+-- intersect
+-- select country from employees
+
+-- select country from customers
+-- except
+-- select country from employees
+
+
+-- select city, ship_city from customers cu
+-- left join orders r on cu.city = r.ship_city
+-- where cu.city like 'L%n'
+
+select contact_name, ship_name from customers cu
+right join orders r on cu.city = r.ship_city
+where r.ship_city like 'L%'
